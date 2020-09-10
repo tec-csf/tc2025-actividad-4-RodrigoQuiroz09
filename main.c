@@ -110,7 +110,7 @@ int proporcion(int top)
 {
     for (int i=5;i<top;i+=5)
     {
-        if((top/i)<100) //Máximo de 100 asteriscos
+        if((top/i)<50) //Máximo de 50 asteriscos
         {
             return i;
         }
